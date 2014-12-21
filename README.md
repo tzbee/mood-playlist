@@ -1,4 +1,3 @@
 mood-playlist
 =============
-
-Generates playlists based on lasf FM information
+Node.js app to generate music playlists based on LastFM information
