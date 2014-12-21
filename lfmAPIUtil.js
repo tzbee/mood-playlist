@@ -60,7 +60,7 @@ function doLFMQuery(method, params, callback, authRequired, requestMethod) {
 	params.api_key = apiKey;
 
 	if (authRequired) {
-   		params.sk = touzbiSessionKey;
+   		params.sk = sessionKey;
 		params.api_sig = getAPISig(method, params);
 	}
 	
